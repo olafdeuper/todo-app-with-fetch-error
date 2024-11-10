@@ -2,6 +2,7 @@
   <Teleport to="body">
     <div v-if="this.store.showPopup" class="modal">
       <p>Hello from the modal!</p>
+      <h3>Hallo world</h3>
       <button @click="this.store.showPopup = false">Close</button>
     </div>
   </Teleport>
